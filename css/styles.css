@@ -13,32 +13,46 @@ body {
     margin: 0 auto;
 }
 
-#portfolio, #contact {
-    margin-top: 3rem;
+h1, h2, nav, footer {
+    font-weight: 800;
 }
 
-footer {
-    margin-top: 5rem;
+nav, h2 {
+    text-transform: uppercase;
+}
+
+#main-nav {
+    width: 90%;
+}
+
+#home p {
+    font-size: 1.25rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #576366;
+}
+
+img {
+    width: 90%;
 }
 
 #profile-image {
+    width: 80%;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 #portfolio, #main-nav a {
     background-color: ghostwhite;
     margin-bottom: 5px;
     padding: 10px 0;
-}
-
-#portfolio h2, #contact h2 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-    font-size: 1.5rem;
-}
-
-#contact h2 {
-    margin-bottom: 1rem;
 }
 
 #portfolio p {
@@ -52,8 +66,18 @@ footer {
     margin-bottom: 3rem;
 }
 
-h1, h2, nav, footer {
-    font-weight: 800;
+#portfolio, #contact {
+    margin-top: 3rem;
+}
+
+#portfolio h2, #contact h2 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
 }
 
 #contact h2 {
@@ -65,46 +89,12 @@ h1, h2, nav, footer {
     margin-top: 2.25rem;
 }
 
-nav, h2 {
-    text-transform: uppercase;
-}
-
-#footer-name {
-    text-transform: unset;
-}
-
-h3 {
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-}
-
-a {
-    text-decoration: none;
-    color: #576366;
-}
-
-#home p {
-    font-size: 1.25rem;
-}
-
-#main-nav {
-    width: 90%;
-}
-
-img {
-    width: 90%;
-}
-
-#profile-image {
-    width: 80%;
-    margin-bottom: 2rem;
-}
-
 footer {
     border-top: 1px solid lightgray;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 5rem;
 }
 
 #footer-nav, #footer-name {
@@ -112,6 +102,11 @@ footer {
     margin: 2rem .5rem;
 }
 
+#footer-name {
+    text-transform: unset;
+}
+
 .hide {
     display: none;
 }
+
