@@ -131,7 +131,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    padding: 2rem 0;;
 }
 
 #footer-nav, #footer-name {
