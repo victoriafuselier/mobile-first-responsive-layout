@@ -150,7 +150,11 @@ footer {
     }
 
     #portfolio {
-        margin: -5%;
+        margin: 0 -5%;
+    }
+
+    #contact {
+        padding: 0 7rem;
     }
 
 }
