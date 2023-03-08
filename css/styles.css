@@ -147,7 +147,7 @@ footer {
     #main-nav a {
         background-color: unset;
     }
-    
+
     #profile-image, #home p {
         width: 48%;
     }
@@ -155,7 +155,7 @@ footer {
     #home {
         flex-direction: row-reverse;
         justify-content: space-evenly;
-        margin: 4rem .25rem;
+        margin: 2rem .25rem;
         align-items: center;
     }
 
@@ -189,6 +189,9 @@ footer {
 
 }
 
+
+
+
 @media screen and (min-width: 1024px) {
     header {
         flex-direction: row;
@@ -201,8 +204,7 @@ footer {
     }
 
     #home {
-        margin-top: 5rem;
-        margin-bottom: 7rem;
+        margin: 1rem;
     }
 
     .project {
@@ -223,12 +225,6 @@ footer {
     #profile-image {
         width: 40%;
     }
-
-    /* #home {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } */
 
     #portfolio {
         margin-right: -3%;
