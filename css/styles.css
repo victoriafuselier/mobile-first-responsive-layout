@@ -123,6 +123,10 @@ footer {
         max-width: 50%;
     }
 
+    body {
+        margin: 0;
+    }
+
     /* #profile-image {
         width: 30%;
         float: right;
