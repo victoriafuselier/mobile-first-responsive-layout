@@ -129,20 +129,25 @@ footer {
         max-width: 50%;
     }
 
-       /* #profile-image {
-        width: 30%;
+    #profile-image {
         float: right;
+        margin: auto 0;
+    }
+
+    #profile-image, #home p {
+        width: 45%;
+    }
+
+    main {
+        margin: 4rem 0;
     }
 
     #home {
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-around;
-        width: 90%;
+        margin: 0 2rem;
+        align-items: center;
     }
-
-    #home p {
-        width: 60%;
-    } */
 
     #portfolio-projects {
         display: flex;
@@ -156,7 +161,7 @@ footer {
     }
 
     #portfolio {
-        margin: 0 -5%;
+        margin: 4rem -5%;
     }
 
     #contact {
