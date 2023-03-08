@@ -9,7 +9,23 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: whitesmoke;
     color: #576366;
-    margin: 5%;
+}
+
+header, #education, #content, footer {
+    padding: 1rem;
+}
+
+#home {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+section, footer {
+    margin-top: 3rem;
+}
+
+#home {
+    margin-top: 1rem;
 }
 
 #portfolio img {
@@ -18,6 +34,11 @@ body {
 
 #portfolio img:hover {
     transform: scale(1.1);
+}
+
+#portfolio-projects {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a:hover {
@@ -79,31 +100,20 @@ img {
 
 #portfolio, #main-nav a {
     background-color: ghostwhite;
-    margin-bottom: 5px;
-    padding: 10px 0;
 }
 
+#main-nav a {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+}
 
 #portfolio {
-    margin: 4rem 0;
-}
+    padding: 3rem 0.25rem 0rem;
+} 
 
 #portfolio p {
-    padding: 0rem 2rem;
-    margin-bottom: 4rem;
-    margin-top: .5rem;
-}
+    padding: 0rem 2rem 3.5rem;
 
-#portfolio p:last-child {
-    margin-bottom: 3rem;
-}
-
-#portfolio, #contact {
-    margin-top: 3rem;
-}
-
-#portfolio h2 {
-    margin-top: 2.5rem;
 }
 
 #portfolio h2, #contact h2 {
@@ -112,7 +122,7 @@ img {
 }
 
 #education h2 {
-    margin: 3rem auto 2rem;
+    margin: 0 auto 2rem;
 }
 
 ul {
@@ -130,12 +140,6 @@ ul li {
 }
 
 #contact h2 {
-    margin-top: 3.5rem;
-    margin-bottom: 1rem;
-}
-
-#contact h2 {
-    margin-top: 4rem;
     margin-bottom: 1.5rem;
 }
 
@@ -148,13 +152,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 6rem;
-    padding: 2rem 0;;
-}
-
-#footer-nav, #footer-name {
-    font-size: 1rem;
-    margin: 2rem .5rem;
+    padding: 2rem 0.5rem;
+    font-size: 0.75rem;
 }
 
 #footer-name {
@@ -173,6 +172,10 @@ h1, #footer-name {
     font-family: 'Poppins', sans-serif;
 }
 
+#home, #education, #contact, footer {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
 
 /* ===========================================================
             Media Queries
@@ -189,7 +192,7 @@ h1, #footer-name {
     #main-nav a {
         background-color: unset;
     }
-
+    
     #profile-image, #home h2 {
         width: 48%;
     }
