@@ -180,7 +180,7 @@ footer {
     #main-nav {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 50%;
+        max-width: 60%;
     }
 
     #main-nav a {
