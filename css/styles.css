@@ -123,11 +123,7 @@ footer {
         max-width: 50%;
     }
 
-    body {
-        margin: 0;
-    }
-
-    /* #profile-image {
+       /* #profile-image {
         width: 30%;
         float: right;
     }
@@ -151,6 +147,10 @@ footer {
 
     .project {
         width: 50%;
+    }
+
+    #portfolio {
+        margin: -5%;
     }
 
 }
