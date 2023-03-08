@@ -93,6 +93,12 @@ footer h2, #home h2 {
     margin-bottom: 2.5rem;
 }
 
+#education, #contact {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* ~~~~~~~~~~~~~~~~~~ IMAGES ~~~~~~~~~~~~~~~~~~~~~ */
 
 img {
@@ -180,6 +186,135 @@ footer {
     font-size: 1rem;
 }
 
+/* ===========================================================
+            Media Queries
+============================================================= */
+
+@media screen and (min-width: 768px) {
+
+    header {
+        margin-top: 4rem;
+    }
+
+    #main-nav {
+        flex-direction: row;
+        max-width: 70%;
+        justify-content: space-between;
+    }
+    
+    #main-nav a {
+        background-color: unset;
+    }
+
+    #home {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 5rem;
+    }
+
+    #profile-image {
+        width: 40%;
+        margin: 0;
+    }
+
+    #home h2 {
+        width: 50%;
+        text-align: left;
+
+    }
+
+    #projects-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 50%;
+    }
+
+    p, ul, #home h2 {
+        font-size: 1.3rem;
+    }
+
+    .hide {
+        display: unset;
+        margin-left: 20px;
+    }
+
+    .hide-2 {
+        display: none;
+    }
+
+    section, footer {
+        margin-top: 7rem;
+    }
+
+    footer {
+        padding: 3rem 1rem 1rem;
+    }
+
+    
+    
+}
+
+/*    
+ 
+@media screen and (min-width: 1024px) {
+    header {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    h1 {
+        margin-right: auto;
+    }
+
+    #home {
+        margin: 1rem;
+    }
+
+    .project {
+        width: 33%;
+    }
+
+    #main-nav {
+        display: inline-block;
+        width: unset;
+        max-width: unset;
+        margin: unset;
+    }
+
+    #main-nav a {
+        margin-left: 3rem;
+    }
+
+    #profile-image {
+        width: 40%;
+    }
+
+    #portfolio {
+        margin-right: -3%;
+        margin-left: -3%;
+    }
+
+    #portfolio p, #home h2, #contact p, ul {
+        font-size: 1.5rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOld CSS */
 
 /*
@@ -241,8 +376,7 @@ h3 {
 
 #education, #contact {
     max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 
 #contact h2 {
@@ -257,114 +391,3 @@ h3 {
     padding-right: 2rem;
     padding-left: 2rem;
 }
-
-/* ===========================================================
-            Media Queries
-============================================================= */
-
-@media screen and (min-width: 768px) {
-
-    #main-nav {
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 60%;
-    }
-
-    #main-nav a {
-        background-color: unset;
-    }
-    
-    #profile-image, #home h2 {
-        width: 48%;
-    }
-    
-    #home {
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        margin: 2rem .25rem;
-        align-items: center;
-    }
-
-    #home h2 {
-        text-align: left;
-    }
-
-    #portfolio-projects {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    #portfolio p, #home h2, #contact p, ul {
-        font-size: 1.3rem;
-    }
-
-    .project {
-        width: 50%;
-    }
-
-    #contact {
-        padding: 0 7rem;
-    }
-
-    .hide {
-        display: unset;
-        margin-left: 20px;
-    }
-
-    .hide-2 {
-        display: none;
-    }
-
-    #footer-nav, #footer-name {
-        font-size: 1.3rem;
-    }
-}
-
-
-
-
-@media screen and (min-width: 1024px) {
-    header {
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    h1 {
-        margin-right: auto;
-    }
-
-    #home {
-        margin: 1rem;
-    }
-
-    .project {
-        width: 33%;
-    }
-
-    #main-nav {
-        display: inline-block;
-        width: unset;
-        max-width: unset;
-        margin: unset;
-    }
-
-    #main-nav a {
-        margin-left: 3rem;
-    }
-
-    #profile-image {
-        width: 40%;
-    }
-
-    #portfolio {
-        margin-right: -3%;
-        margin-left: -3%;
-    }
-
-    #portfolio p, #home h2, #contact p, ul {
-        font-size: 1.5rem;
-    }
-} */
