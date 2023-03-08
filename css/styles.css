@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -156,5 +160,22 @@ footer {
     #contact {
         padding: 0 7rem;
     }
+
+    .hide {
+        display: unset;
+    }
+
+    .hide-2 {
+        display: none;
+    }
+
+    footer {
+        justify-content: space-evenly;
+    } 
+
+    #footer-name {
+        margin-right: auto;
+    }
+
 
 }
