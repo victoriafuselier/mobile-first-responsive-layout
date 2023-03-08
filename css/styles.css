@@ -9,7 +9,6 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: whitesmoke;
     color: #576366;
-    /* padding: 25px; */
     margin: 5%;
 }
 
@@ -31,8 +30,14 @@ nav, h2 {
     width: 90%;
 }
 
+#home {
+    display: flex;
+    flex-direction: column;
+}
+
 #home p {
     font-size: 1.25rem;
+    text-align: center;
 }
 
 h3 {
@@ -50,9 +55,10 @@ img {
 }
 
 #profile-image {
-    width: 80%;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    width: 70%;
+    margin: 2rem auto;
+    /* margin-top: 3rem;
+    margin-bottom: 2rem; */
 }
 
 #portfolio, #main-nav a {
@@ -138,23 +144,18 @@ footer {
         max-width: 50%;
     }
 
-    #profile-image {
-        float: right;
-        margin: auto 0;
+    #main-nav a {
+        background-color: unset;
     }
-
+    
     #profile-image, #home p {
-        width: 45%;
+        width: 48%;
     }
-/* 
-    main {
-        margin: 2rem 0;
-    } */
-
+    
     #home {
         flex-direction: row-reverse;
-        justify-content: space-around;
-        margin: 4rem 2rem;
+        justify-content: space-evenly;
+        margin: 4rem .25rem;
         align-items: center;
     }
 
@@ -223,11 +224,11 @@ footer {
         width: 40%;
     }
 
-    #home {
+    /* #home {
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
+    } */
 
     #portfolio {
         margin-right: -3%;
