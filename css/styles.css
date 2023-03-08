@@ -163,19 +163,11 @@ footer {
 
     .hide {
         display: unset;
+        margin-left: 20px;
     }
 
     .hide-2 {
         display: none;
     }
-
-    footer {
-        justify-content: space-evenly;
-    } 
-
-    #footer-name {
-        margin-right: auto;
-    }
-
 
 }
