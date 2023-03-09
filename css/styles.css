@@ -94,7 +94,7 @@ footer h2, #home h2 {
 }
 
 #education, #contact {
-    max-width: 700px;
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -198,7 +198,7 @@ footer {
 
     #main-nav {
         flex-direction: row;
-        max-width: 70%;
+        max-width: 550px;
         justify-content: space-between;
     }
     
@@ -209,8 +209,10 @@ footer {
     #home {
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 5rem;
+        padding-right: 4rem;
+        padding-left: 3rem;
     }
 
     #profile-image {
@@ -254,59 +256,57 @@ footer {
 
     footer {
         padding: 3rem 1rem 1rem;
-    }
-
-    
-    
+    } 
 }
 
-/*    
- 
 @media screen and (min-width: 1024px) {
     header {
+        display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: space-around;
         align-items: center;
+        margin: 5rem;
     }
 
+    #main-nav, h1 {
+        margin: unset;
+    }
+    
     h1 {
         margin-right: auto;
+        text-align: center;
+    }
+
+    #main-nav a {
+        margin-left: .75rem;
     }
 
     #home {
         margin: 1rem;
     }
 
+    #profile-image {
+        width: 40%;
+        max-width: 450px;
+    }
+
     .project {
         width: 33%;
     }
-
-    #main-nav {
-        display: inline-block;
-        width: unset;
-        max-width: unset;
-        margin: unset;
-    }
-
-    #main-nav a {
-        margin-left: 3rem;
-    }
-
-    #profile-image {
-        width: 40%;
-    }
-
-    #portfolio {
-        margin-right: -3%;
-        margin-left: -3%;
-    }
-
-    #portfolio p, #home h2, #contact p, ul {
+ 
+    p, ul, #home h2, footer {
         font-size: 1.5rem;
     }
-} */
 
+    footer, #footer-name {
+        font-size: 1.3rem;
+    }
 
+    #portfolio h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}
 
 
 
