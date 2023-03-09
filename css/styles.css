@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-/* ~~~~~~~~~~~~~~~~~~ LINKS ~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~ LINKS and HEADER ~~~~~~~~~~~~~~~~~~~~~ */
 
 
 #main-nav {
@@ -20,6 +20,7 @@ body {
     margin: 0 auto;
     width: 90%;
     font-size: 1.3rem;
+    max-width: 400px;
 }
 
 #main-nav a, #portfolio {
@@ -39,6 +40,10 @@ a {
 
 a:hover {
     color: lightslategrey;
+}
+
+h1 {
+    font-size: 1.75rem;
 }
 
 /* ~~~~~~~~~~~~~~~~~~ FONT STYLE, WEIGHT, UPPERCASE, AND EXCLUSIONS~~~~~~~~~~~~~~~~~~~~~ */
@@ -73,7 +78,7 @@ p, ul, #home h2 {
 /* ~~~~~~~~~~~~~~~~~~ SPACING? ~~~~~~~~~~~~~~~~~~~~~ */
 
 header {
-    margin-top: 3rem;
+    margin-top: 1.75rem;
 }
 
 section, footer {
