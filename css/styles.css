@@ -101,7 +101,7 @@ footer h2, #home h2 {
 }
 
 #portfolio h2 {
-    margin-bottom: 2.5rem;
+    margin: 2.5rem 0;
 }
 
 #education, #contact {
@@ -147,10 +147,6 @@ img {
 /* =============================================================
                     PORTFOLIO SECTION
 ============================================================== */
-
-#portfolio {
-    padding: 2.5rem 0.5rem;
-}
 
 #portfolio p {
     padding: .5rem 1.5rem;
