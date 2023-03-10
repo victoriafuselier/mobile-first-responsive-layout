@@ -9,6 +9,8 @@ body {
     background-color: whitesmoke;
     color: #576366;
     text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 /* ~~~~~~~~~~~~~~~~~~ LINKS and HEADER ~~~~~~~~~~~~~~~~~~~~~ */
