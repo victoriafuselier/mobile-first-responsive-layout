@@ -142,6 +142,7 @@ img {
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
+    padding: 0 3rem;
 }
 
 /* =============================================================
@@ -195,10 +196,10 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 1rem 1rem;
+    padding: 4rem 1rem;
     font-size: 1rem;
     border-top: 1px solid lightgray;
-    margin-top: 3rem;
+    margin: 2rem 1rem;
 }
 
 #footer-name {
