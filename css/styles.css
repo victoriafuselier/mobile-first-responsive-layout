@@ -84,11 +84,12 @@ p, ul, #home h2 {
 }
 
 header {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 section, footer {
-    margin: 2rem;
+    margin: 6rem 1rem;
     padding: 1rem;
 }
 
@@ -104,8 +105,8 @@ footer h2, #home h2 {
     margin: 2.5rem 0;
 }
 
-#education, #contact {
-    margin: 4rem 2rem;
+#education, #contact, #home {
+    margin: 6rem 2rem;
 }
 
 #education-and-contact-div {
@@ -145,7 +146,6 @@ img {
 #home {
     display: flex;
     flex-direction: column;
-    margin: 4rem 0;
     padding: 0 3rem;
 }
 
@@ -233,13 +233,15 @@ footer {
 
     h1 {
         margin-bottom: .7rem;
+        font-size: 2rem;
+
     }
 
     #home {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        margin: 5rem 0;
+        margin: 8rem 0;
         padding-right: 4rem;
         padding-left: 4rem;
     }
@@ -295,7 +297,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin: 5rem;
+        margin: 7rem 4rem;
     }
 
     #main-nav, h1 {
@@ -305,6 +307,7 @@ footer {
     h1 {
         margin-right: auto;
         text-align: center;
+        font-size: 1.5rem;
     }
 
     #main-nav a {
