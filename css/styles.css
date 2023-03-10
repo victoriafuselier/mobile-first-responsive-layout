@@ -141,7 +141,7 @@ img {
 #home {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin: 2rem 0;
 }
 
 /* =============================================================
@@ -233,7 +233,7 @@ footer {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        margin-top: 5rem;
+        margin: 5rem 0;
         padding-right: 4rem;
         padding-left: 3rem;
     }
@@ -306,7 +306,7 @@ footer {
     }
 
     #home {
-        margin: 1rem;
+        margin: 10rem 0;
     }
 
     #profile-image {
