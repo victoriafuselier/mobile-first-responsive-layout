@@ -207,7 +207,7 @@ footer {
 }
 
 #footer-name {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 /* ===========================================================
@@ -307,7 +307,7 @@ footer {
     h1 {
         margin-right: auto;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #main-nav a {
@@ -332,8 +332,12 @@ footer {
         font-size: 1.5rem;
     }
 
-    footer, #footer-name {
-        font-size: 1.2rem;
+    footer {
+        font-size: 1.4rem;
+    }
+
+    #footer-name {
+        font-size: 1.5rem;
     }
 
     #portfolio h2 {
